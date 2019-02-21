@@ -20,19 +20,19 @@ public class ConsecutiveNumbersTest {
     }
 
     @Test
-    public void checkconsecutiveSuccess1() {
+    public void testCheckConsecutiveSuccess1() {
         assertEquals(false, consecutiveNumbers.checkConsecutive("98,96,95,94,93,91,89"));
         assertNotNull(consecutiveNumbers.checkConsecutive("98,96,95,94,93,91,89"));
     }
 
     @Test
-    public void checkconsecutiveSuccess2() {
+    public void testCheckConsecutiveSuccess2() {
         assertEquals(false, consecutiveNumbers.checkConsecutive("97,96,92,91,97,98,99"));
         assertNotNull(consecutiveNumbers.checkConsecutive("97,96,92,91,97,98,99"));
     }
 
     @Test
-    public void checkconsecutiveFailure() {
+    public void testCheckConsecutiveFailure() {
         assertNotEquals(true, consecutiveNumbers.checkConsecutive("98,96,95,94,93,91,89"));
         assertNotNull(consecutiveNumbers.checkConsecutive("98,96,95,94,93,91,89"));
     }

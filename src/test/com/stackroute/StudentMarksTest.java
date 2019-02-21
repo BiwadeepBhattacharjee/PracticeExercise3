@@ -16,7 +16,7 @@ public class StudentMarksTest {
     }
 
     @org.junit.Test
-    public void check() {
+    public void testCheck() {
         String expected = "true";
         int[] grades = {21, 35, 45, 60, 84};
         String actualValue = sm.checkGrade(5, grades);
@@ -25,7 +25,7 @@ public class StudentMarksTest {
     }
 
     @org.junit.Test
-    public void checkFailure() {
+    public void testCheckFailure() {
         String expected = "false";
         int[] grades = {21, 35, 45, 60, 840};
         String actualValue = sm.checkGrade(5, grades);

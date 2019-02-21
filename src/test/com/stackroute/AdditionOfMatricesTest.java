@@ -20,7 +20,7 @@ public class AdditionOfMatricesTest {
     }
 
     @Test
-    public void sumOfMatrices() {
+    public void testSumOfMatrices() {
 
         int expected[][] = {{10, 10}, {10, 10}, {10, 10}};
         int array1[][] = {{1, 2}, {3, 4}, {5, 6}};
@@ -32,7 +32,7 @@ public class AdditionOfMatricesTest {
     }
 
     @Test
-    public void sumOfMatricesFailure() {
+    public void testSumOfMatricesFailure() {
 
         int expected[][] = {{11, 11, 11}, {11, 11, 11}};
         int array1[][] = {{1, 2}, {3, 4}, {5, 6}};
